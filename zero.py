@@ -26,13 +26,13 @@ def set_sys_time(year, month, day):
 
 def trick_commit(year, month, day):
     # set_sys_time(year, month, day)
-    os.system('curl -u \'fastZhang\' https://api.github.com/user/repos -d \'{\"name\":\"testGithubApithree\"}\'')
+    os.system('curl -u \'fastZhang\' https://api.github.com/user/repos -d \'{\"name\":\"testGithubApithreee\"}\'')
     # modify()
-    os.system('git init')
+    # os.system('git init')
     # os.system('git add .')
     # os.system('git commit -a -m test_github_streak > /dev/null 2>&1')
     # os.system('git remote add origin git@github.com:fastZhang/starttest.git')
-    os.system('git push -u origin master')
+    # os.system('git push -u origin master')
 
 
     
