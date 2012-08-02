@@ -30,9 +30,9 @@ def trick_commit(year, month, day):
     # modify()
     os.system('git init')
     # os.system('git add .')
-    os.system('git commit -a -m test_github_streak > /dev/null 2>&1')
-    os.system('git remote add origin git@github.com:fastZhang/starttest.git')
-    os.system('git push -u origin master')
+    # os.system('git commit -a -m test_github_streak > /dev/null 2>&1')
+    # os.system('git remote add origin git@github.com:fastZhang/starttest.git')
+    # os.system('git push -u origin master')
 
 
     
